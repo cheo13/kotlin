@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "d6bdb3c9-bc9d-4cbe-b4d9-4de01a490abf",
+		"name": "COLLEGE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28810841"
+	},
+	"item": [
+		{
+			"name": "musicaGET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/musica1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"musica1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "musicaPOST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"tec_music\": \"BYRON CAICEDO\",\r\n    \"reg_music\": \"TIERRA CANELA\",\r\n    \"cum_music\": \"PORTAVOZ\",\r\n    \"sal_music\": \"AID\",\r\n    \"dee_music\": \"the\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/musica1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"musica1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "musicaPUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/musica1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"musica1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "musicaPATCH",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\",\r\n    \"tec_music\": \"CARTEL DE SANTA\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/musica1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"musica1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "musicaDELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"tec_music\": \"BYRON CAICEDO\",\r\n    \"reg_music\": \"TIERRA CANELA\",\r\n    \"cum_music\": \"PORTAVOZ\",\r\n    \"sal_music\": \"AID\",\r\n    \"dee_music\": \"the\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/musica1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"musica1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
