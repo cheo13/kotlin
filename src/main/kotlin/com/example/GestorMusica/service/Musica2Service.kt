@@ -12,7 +12,7 @@ import org.springframework.web.server.ResponseStatusException
 @Service
 class Musica2Service {
     //inyeccion de dependencias o clases.
-    @Autowired
+    @Autowired // permite inyectar un objeto del que yo quiera.
     lateinit var musica2Repository: Musica2Repository
     @Autowired
     lateinit var musica1Repository: Musica1Repository
@@ -77,7 +77,15 @@ class Musica2Service {
             throw ResponseStatusException(HttpStatus.NOT_FOUND,ex.message)
         }
     }
+
+
+
 }
+
+
+
+
+
 
 
 

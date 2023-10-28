@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 
-@RestController
+@RestController   //Define una responsabilidad a un componente
 @RequestMapping("/musica1")   //endpoint
 class musica1controller {
     @Autowired

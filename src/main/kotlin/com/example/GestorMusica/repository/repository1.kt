@@ -7,7 +7,8 @@ import org.springframework.stereotype.Repository
 @Repository
 interface Musica1Repository : JpaRepository<Musica1, Long?> {
   //funcion que representa conexion
-    fun findById (id: Long?): Musica1?
+    fun findById (id: Long?): Musica1?  //se usa sql sin hacer sql.
+
 
 
 }

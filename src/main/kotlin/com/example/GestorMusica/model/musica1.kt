@@ -18,3 +18,8 @@ import jakarta.persistence.*
     }
 
 
+//Anotaciones :tIENEN UN @     @Autowired ---Informacion sumplementaria del codigo   metadatos...
+//Son procesador por el compilador-
+//
+
+
